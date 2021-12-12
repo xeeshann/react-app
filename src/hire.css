@@ -1,0 +1,19 @@
+.hirepage{
+    width: 100vw;
+    height: 100vh;
+    text-align: center;
+    background-color: cadetblue;
+    
+}
+.hireheading h1{
+    padding-top: 100px;
+}
+.hireone{
+    margin-top: 30px;
+}
+.hireone img{
+    width: 50px;
+}
+.hireone h4{
+    padding-top: 10px;
+}

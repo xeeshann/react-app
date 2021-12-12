@@ -1,0 +1,62 @@
+.services{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #97bcf369;
+    /* margin-top: 100px; */
+    padding-top: 70px;
+}
+.cards{
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    justify-content: space-around;
+
+}
+summary{
+    font-size: larger;
+    font-weight: bold;
+    margin-left: 30px;
+    margin-bottom: 20px;
+    text-transform: capitalize;
+    
+   
+}
+summary:hover{
+    color: chartreuse;
+}
+.first-cards{
+    padding: 10px;
+    padding-left: 30px;
+}
+.nxtbtn{
+    margin-top: 70px;
+
+}
+.css-o69gx8-MuiCardMedia-root{
+    
+    object-fit: contain;
+}
+
+
+                           /* media quiries */
+     @media only screen and (max-width: 800px) {
+         .services{
+             margin-top: 0;
+             height: auto;
+         }
+         .cards{
+             flex-direction: column;
+             align-items: center;
+         }
+         .css-5nw623-MuiPaper-root-MuiCard-root{
+                          margin: 10px;
+         }
+         .nxtbtn{
+             display: none;
+         }
+        
+     }

@@ -1,0 +1,15 @@
+.cvheading h3{
+    
+    margin: 40px;
+    margin-top: 120px;
+}
+.cvpage{
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+a{
+    color: black;
+}

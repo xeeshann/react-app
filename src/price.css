@@ -1,0 +1,39 @@
+.pricepage{
+    width: 100vw;
+    height: 100vh;
+    background-color: #8c52ff;
+}
+.heading{
+    width: 100vw;
+    height: 120px;
+    text-align: center;
+    text-transform: capitalize;
+    padding-top: 75px;
+}
+.pricecards{
+    display: flex;
+    width: 100vw;
+    justify-content: space-around;
+}
+.css-1hnbbzp-MuiTypography-root{
+    padding: 0;
+    padding-top: 40px;
+    text-transform: capitalize;
+}
+
+
+
+               /* media quiries */
+@media only screen and (max-width: 800px) {
+    .pricepage{
+        height: auto;
+    }
+    .pricecards{
+        flex-direction: column;
+        align-items: center;
+    }
+    .css-aan8o5-MuiPaper-root-MuiCard-root{
+        width: 260px;
+    }
+
+}
